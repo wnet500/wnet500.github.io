@@ -1,12 +1,14 @@
 ---
 layout: about
-title: About me
+title: About
 sidebar: []
 ---
 
 ## 민지영 (JIYOUNG MIN)
 ### Medical Data Scientist
-[Email](wnet50094@gmail.com), [Github](https://github.com/wnet500)
+[Email](wnet50094@gmail.com)
+
+[Github](https://github.com/wnet500)
 
 
 ## EDUCATION
@@ -132,7 +134,6 @@ sidebar: []
   <u> Published: 2020.12 </u>   
   _First author_, IJERPH (International Journal of Environmental Research and Public Health), SCIE
 
-<br/>
 
 ### __[Machine Learning] Publication__
 
@@ -142,7 +143,6 @@ sidebar: []
   <u> On the last minor revision process </u>   
   _First author_, JMIR (Journal of Medical Internet Research), SCIE
 
-  <br/>
 
 ### __Symposium Presentation__
 
@@ -160,7 +160,8 @@ sidebar: []
 
   *  연구 참여 기간: 2019.01 – 2020.12 (1, 2차 년도 연구 담당)
 
-  *  담당 주제: 삼성서울병원의 의료데이터를 활용하여, 실수로 잘못 처방될 시 심각한 결과를 초래할 수 있는 고위험약물의 이상 처방을 감지하는 머신러닝 기반의 모델 개발
+  *  담당 주제: 삼성서울병원의 의료데이터를 활용하여, 실수로 잘못 처방될 시 심각한 결과를 초래할 수 있는 고위험약물의   
+  이상 처방을 감지하는 머신러닝 기반 모델 개발
   
   *  업무 내용:
 
@@ -189,7 +190,7 @@ sidebar: []
 
   *  연구 참여 기간: 2019.06 – 2019.12 (1차 년도 연구 참여)
 
-  *  담당 주제: 삼성서울병원의 의료데이터를 활용하여, 중환자실에서 발생하는 비계획적 발관 (unplanned extubation) 을 예측하는 머신러닝 기반의 모델 개발
+  *  담당 주제: 삼성서울병원의 의료데이터를 활용하여, 중환자실에서 발생하는 비계획적 발관 (unplanned extubation)을 예측하는 머신러닝 기반 모델 개발
   
   *  업무 내용:   
 
@@ -197,7 +198,7 @@ sidebar: []
   Case & control, inclusion & exclusion criteria 설계 논의
   <br/>
 
-  2. <u> 데이터 전처리 – 분석 및 모델 인풋에 사용할 데이터셋 구축 </u>
+  2. <u> 데이터 전처리 – 분석 및 모델 인풋에 사용할 데이터셋 구축 </u>   
   데이터 클리닝 수행 (중복 제거, 간호기록에서 text mining을 통해 정보 추출, 데이터 타입 변환),   
   EDA 수행 (변수간 correlation 분석, Sankey diagram 활용 전체 흐름 시각화, 통계 기반 logistic regression 수행   
   risk factor 분석, table과 figure로 데이터 trend, pattern, outlier 요약),   
