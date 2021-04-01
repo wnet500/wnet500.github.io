@@ -5,14 +5,14 @@ subheading: 쉽고 빠르게 마크다운을 이용해 글 작성하기
 author: Jiyoung Min
 categories: [Summary & Tips]
 tags: [markdown, tutorial]
-banner: http://khawlatahri.com/wp-content/uploads/2019/11/cropped-joanna-kosinska-129039-unsplash_flipped.jpg
+banner: https://blog.stephsmith.io/content/images/size/w1000/2019/10/joanna-kosinska-1_CMoFsPfso-unsplash-2-1.jpg
 ---
 
 ## 1. 마크다운(Markdown)
 
-> 위키 백과에 따르면, 마크다운(markdown)은 일반 텍스트 기반의 경량 마크업 언어다.   
-> 일반 텍스트로 서식이 있는 문서를 작성하는 데 사용되며, 일반 마크업 언어에 비해 문법이 쉽고 간단한 것이 특징이다.    
-> HTML와 같은 서식 문서로 쉽게 변환되기 때문에 응용 소프트웨어와 함께 배포되는 README 파일이나 온라인 게시물 등에 많이 사용된다.
+> 위키 백과에 따르면,
+> 마크다운(markdown)은 일반 텍스트 기반의 경량 마크업 언어다.   
+> 일반 텍스트로 서식이 있는 문서를 작성하는 데 사용되며, 일반 마크업 언어에 비해 문법이 쉽고 간단한 것이 특징이다. HTML와 같은 서식 문서로 쉽게 변환되기 때문에 응용 소프트웨어와 함께 배포되는 README 파일이나 온라인 게시물 등에 많이 사용된다.
 
 파일의 확장자는 md이며, 깃허브의 README.md가 대표적인 예시이다.   
 이 블로그와 같이 깃허브 기반의 블로그를 작성하는데 필수적으로 필요한 언어이다.
