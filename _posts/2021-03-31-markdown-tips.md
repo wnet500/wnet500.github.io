@@ -114,7 +114,7 @@ __굵은 글씨__
 + 두 번째 글머리 기호
 - 세 번째 글머리 기호
 
-
+<br/>
 
 들여쓰기도 가능하다.
 ```
@@ -126,7 +126,7 @@ __굵은 글씨__
     * 들여쓰기 2
         * 들여쓰기 3
 
-
+<br/>
 
 **(Tip)** `*`, `+`, `-`를 혼합하여 사용할 수 있다.
 ```
@@ -157,7 +157,7 @@ __굵은 글씨__
 
 >>> 이것은 세 번째 블럭 인용문자 입니다.
 
-
+<br/>
 
 **(Tip)** 블럭 인용문자 안에 마크다운의 다른 요소를 함께 사용할 수 있다.
 > ##### 블럭 인용문자와 헤더 5
@@ -184,7 +184,7 @@ __굵은 글씨__
 이것은 코드 블럭 입니다.
 ```
 
-
+<br/>
 
 * python, javascript, markdown 등 언어를 선언하여, 실제 코드 문법처럼 나타낼 수 있다.
 
@@ -242,7 +242,7 @@ print(p1.age)
 [Google](https://google.com, "google link")   
 [Google](https://google.com)   
 
-
+<br/>
 
 * 링크를 반복적으로 사용할 경우 추천
     * 마지막 줄에 사용한 링크를 정리한다.
@@ -266,6 +266,8 @@ print(p1.age)
 [google link]: https://google.com
 [linkedin link]: https://www.linkedin.com
 
+<br/>
+
 * URL에 직접 링크 연결
 
 ```
@@ -287,7 +289,7 @@ print(p1.age)
 ```
 문법: ![제목](img path, "optional title")
 ```
-
+<br/>
 
 * 이미지가 있는 URL 링크를 삽입할 수 있다.
     * 구글에서 이미지를 찾은 후, 마우스 우클릭 "이미지 주소 복사"를 클릭하면, URL링크를 얻을 수 있다.
@@ -301,6 +303,8 @@ print(p1.age)
 ![](https://s3-ap-southeast-2.amazonaws.com/geg-gug-webapp/images/1557364192-work_while_you_study_banner.jpg)
 ```
 ![](https://s3-ap-southeast-2.amazonaws.com/geg-gug-webapp/images/1557364192-work_while_you_study_banner.jpg)
+
+<br/>
 
 * 이미지 사이즈 변경
     * 이미지 사이즈를 변경하는 것은 조금 더 복잡하다.   
@@ -335,6 +339,7 @@ print(p1.age)
 
 [![](https://img.youtube.com/vi/Ptk_1Dc2iPY/0.jpg)](https://www.youtube.com/watch?v=Ptk_1Dc2iPY)
 
+<br/>
 
 * HTML 태그를 사용하여 블로그에서 직접 시청할 수 있는 유튜브 영상을 삽입할 수 있다.
   * 유튜브 동영상에서 마우스 우클릭하여 "소스 코드 복사" 이후, 붙여넣으면 된다.
@@ -362,6 +367,8 @@ print(p1.age)
 | 셀 1 | 셀 2 |
 | 셀 3 | 셀 4 |
 
+<br/>
+
 * 마크다운 기본 문법을 표 안에서 사용할 수 있다.
 
 ```
@@ -375,6 +382,8 @@ print(p1.age)
 | --- | --- |
 | `셀 1` | *셀 2* |
 | `셀 3` | **셀 4** |
+
+<br/>
 
 * 각 열을 왼쪽, 가운데, 오른쪽 정렬을 할 수 있다.
 
