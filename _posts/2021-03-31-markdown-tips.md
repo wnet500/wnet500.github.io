@@ -5,7 +5,7 @@ subheading: 쉽고 빠르게 글 작성하기
 author: Jiyoung Min
 categories: [Summary & Tips]
 tags: [markdown, tutorial]
-banner: https://steemitimages.com/DQmZoxt18AetawkUVcZX24CZbde9rgQ9gnX1xWFUXTqYAS5/I-love-Markdown.jpg
+banner: https://blog.stephsmith.io/content/images/size/w2000/2019/10/joanna-kosinska-1_CMoFsPfso-unsplash-2-1.jpg
 ---
 
 ## 1. 마크다운(Markdown)
@@ -337,17 +337,15 @@ print(p1.age)
 
 
 * HTML 태그를 사용하여 블로그에서 직접 시청할 수 있는 유튜브 영상을 삽입할 수 있다.
+  * 유튜브 동영상에서 마우스 우클릭하여 "소스 코드 복사" 이후, 붙여넣으면 된다.
   
 
 ```
-문법 :
-<iframe width="가로 크기" height="세로 크기" src="유튜브 링크" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 예시 :
-<iframe width="900" height="500" src="https://www.youtube.com/watch?v=Ptk_1Dc2iPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="791" height="396" src="https://www.youtube.com/embed/Ptk_1Dc2iPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-<iframe width="900" height="500" src="https://www.youtube.com/watch?v=Ptk_1Dc2iPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="791" height="396" src="https://www.youtube.com/embed/Ptk_1Dc2iPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## 11. 기본 표 만들기
