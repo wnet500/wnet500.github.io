@@ -5,7 +5,7 @@ subheading: 쉽고 빠르게 마크다운을 이용해 글 작성하기
 author: Jiyoung Min
 categories: [Summary & Tips]
 tags: [markdown, tutorial]
-banner: https://blog.stephsmith.io/content/images/size/w2000/2019/10/joanna-kosinska-1_CMoFsPfso-unsplash-2-1.jpg
+banner: https://mcdn.wallpapersafari.com/medium/27/49/ctb6aY.jpg
 ---
 
 ## 1. 마크다운(Markdown)
