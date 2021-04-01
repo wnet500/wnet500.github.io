@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 마크다운(Markdown) 기본 작성법 정리
-subheading: 쉽고 빠르게 글 작성하기
+subheading: 쉽고 빠르게 마크다운을 이용해 글 작성하기
 author: Jiyoung Min
 categories: [Summary & Tips]
 tags: [markdown, tutorial]
@@ -330,10 +330,10 @@ print(p1.age)
 ```
 문법 1: [![제목(생략가능)](https://img.youtube.com/vi/"유튜브 아이디"/0.jpg)]([유튜브 URL](https://www.youtube.com/watch?v="유튜브 아이디"))
 
-예시 : [![](https://img.youtube.com/vi/UmX4kyB2wfg/0.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
+예시 : [![](https://img.youtube.com/vi/Ptk_1Dc2iPY/0.jpg)](https://www.youtube.com/watch?v=Ptk_1Dc2iPY)
 ```
 
-[![](https://img.youtube.com/vi/UmX4kyB2wfg/0.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
+[![](https://img.youtube.com/vi/Ptk_1Dc2iPY/0.jpg)](https://www.youtube.com/watch?v=Ptk_1Dc2iPY)
 
 
 * HTML 태그를 사용하여 블로그에서 직접 시청할 수 있는 유튜브 영상을 삽입할 수 있다.
