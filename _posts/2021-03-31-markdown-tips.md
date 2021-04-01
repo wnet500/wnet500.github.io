@@ -324,6 +324,7 @@ print(p1.age)
 
 ## 10. 유튜브 동영상 삽입
 
+* 마크다운 문법을 통해 링크 형식으로 다음과 같이 삽입할 수 있으나, 블로그 자체에서 동영상을 보기는 어렵다.
 ```
 문법 1: [![제목(생략가능)](https://img.youtube.com/vi/"유튜브 아이디"/0.jpg)]([유튜브 URL](https://www.youtube.com/watch?v="유튜브 아이디"))
 
@@ -332,6 +333,18 @@ print(p1.age)
 
 [![](https://img.youtube.com/vi/UmX4kyB2wfg/0.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
+
+* HTML 태그를 사용하여 블로그에서 직접 시청할 수 있는 유튜브 영상을 삽입할 수 있다.
+  
+```
+문법 :
+<iframe width="가로 크기" height="세로 크기" src="유튜브 링크" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+예시 :
+<iframe width="900" height="500" src="https://www.youtube.com/watch?v=Ptk_1Dc2iPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
+<iframe width="900" height="500" src="https://www.youtube.com/watch?v=Ptk_1Dc2iPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## 11. 기본 표 만들기
@@ -376,5 +389,5 @@ print(p1.age)
 | 왼쪽으로 | 가운데로 | 오른쪽으로 정렬합니다. |
 | 정렬 | 정렬이 잘 될까? | 결과는? |
 
-
+***
 이것으로 마크다운 핵심 작성법 포스팅을 마친다.
