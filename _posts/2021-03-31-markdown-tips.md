@@ -43,7 +43,7 @@ __굵은 글씨__
 | 두 번째 라인 블럭
 
 - [x] 이것은 체크 박스 입니다.
-- [] 이것은 비어있는 체크 박스 입니다.
+- [ ] 이것은 비어있는 체크 박스 입니다.
 ```
 
 _이텔릭체 글씨_    
@@ -68,7 +68,7 @@ __굵은 글씨__
 
 
 - [x] 이것은 체크 박스 입니다.   
-- [] 이것은 비어있는 체크 박스 입니다.
+- [ ] 이것은 비어있는 체크 박스 입니다.
 
 
 ## 3. 헤더 (Header)
@@ -325,6 +325,8 @@ print(p1.age)
 ## 10. 유튜브 동영상 삽입
 
 * 마크다운 문법을 통해 링크 형식으로 다음과 같이 삽입할 수 있으나, 블로그 자체에서 동영상을 보기는 어렵다.
+
+
 ```
 문법 1: [![제목(생략가능)](https://img.youtube.com/vi/"유튜브 아이디"/0.jpg)]([유튜브 URL](https://www.youtube.com/watch?v="유튜브 아이디"))
 
@@ -336,6 +338,7 @@ print(p1.age)
 
 * HTML 태그를 사용하여 블로그에서 직접 시청할 수 있는 유튜브 영상을 삽입할 수 있다.
   
+
 ```
 문법 :
 <iframe width="가로 크기" height="세로 크기" src="유튜브 링크" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
