@@ -6,7 +6,7 @@ sidebar: []
 
 ## 민지영 (JIYOUNG MIN)
 ### Medical Data Scientist
-[Email](wnet50094@gmail.com), [Github](https://github.com/wnet500)
+[Email](wnet50094@gmail.com), [Github](https://github.com/wnet500), [LinkedIn](https://www.linkedin.com/in/jiyoung-min-27934b201/)
 
 
 ## EDUCATION
