@@ -8,6 +8,8 @@ sidebar: []
 ### Medical Data Scientist
 [Email](wnet50094@gmail.com), [Github](https://github.com/wnet500), [LinkedIn](https://www.linkedin.com/in/jiyoung-min-27934b201/)
 
+<img src="https://drive.google.com/uc?export=view&id=1UpaCqBT_vd9v2VjEQP3D1qaT0wx9eAx3">
+
 
 ## EDUCATION
 ***
