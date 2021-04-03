@@ -48,6 +48,8 @@ banner: https://cdn.mos.cms.futurecdn.net/uWjEogFLUTBc8mSvagdiuP-1024-80.jpg.web
 
 * <u>Command + 1, 2, 3 …</u> : 첫 번째, 두 번째, 세 번째 … 탭으로 이동
 
+* <u>Command + R : 페이지 새로고침
+
 * <u>Command + Q</u> : 사파리/크롬 전체 종료
 <br/>
 
