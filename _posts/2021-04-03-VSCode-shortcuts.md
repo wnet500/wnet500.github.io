@@ -83,7 +83,7 @@ VSCode는 자체적으로 개발 코드를 효율적으로 작성할 수 있도�
 * <u>Command + Option + Up/Down</u> : 여러 행의 같은 위치에 내용 삽입하기
 <br/>
 
- <img src="https://drive.google.com/uc?export=view&id=1Sqd8HuzARZg9ag99ItgcE52DKcA6JBik">
+  <img src="https://drive.google.com/uc?export=view&id=1Sqd8HuzARZg9ag99ItgcE52DKcA6JBik">
 
  * <u>Option + 마우스 클릭 : 클릭한 여러 위치에 내용 삽입하기
   
@@ -93,7 +93,7 @@ VSCode는 자체적으로 개발 코드를 효율적으로 작성할 수 있도�
 * <u>Command + D</u> : 다음 반복되는 단어 선택
 <br/>
 
- <img src="https://drive.google.com/uc?export=view&id=1CyZxn7gUu2cIg-ioXMfju15FvrtweVzb">
+  <img src="https://drive.google.com/uc?export=view&id=1CyZxn7gUu2cIg-ioXMfju15FvrtweVzb">
 
 * <u>Command + Shift + L</u> : 반복되는 모든 단어 선택
 
@@ -103,7 +103,7 @@ VSCode는 자체적으로 개발 코드를 효율적으로 작성할 수 있도�
 * <u>Option + Shift + 드래그</u> : 여러 행에서 같은 위치에 커서 위치시키기
 <br/>
 
- <img src="https://drive.google.com/uc?export=view&id=1M-sQxAFaXtqM68jmJyg80nfFZvl-iw6O">
+  <img src="https://drive.google.com/uc?export=view&id=1M-sQxAFaXtqM68jmJyg80nfFZvl-iw6O">
 
  * <u>Option + Shift + I</u> : 드래그한 모든 행의 마지막에 커서 위치시키기
 
@@ -113,7 +113,7 @@ VSCode는 자체적으로 개발 코드를 효율적으로 작성할 수 있도�
 * <u>Command + /</u> : #을 사용하여 주석처리하기 (여러 행 가능)
 <br/>
 
- <img src="https://drive.google.com/uc?export=view&id=1fhGe4DwTZTyQLHNagKAkvh2hWW4oKJ1g">
+  <img src="https://drive.google.com/uc?export=view&id=1fhGe4DwTZTyQLHNagKAkvh2hWW4oKJ1g">
 
 
 이것으로 유용한 VSCode 기본 핵심 단축키에 대한 포스팅을 마친다.
