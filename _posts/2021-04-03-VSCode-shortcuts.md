@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VSCode (Visual Studio Code) 기본 핵심 단축키
+title: VSCode (Visual Studio Code) 핵심 단축키
 subheading: 개발 시간을 단축시켜주는 유용한 단축키
 author: Jiyoung Min
 categories: [Summary & Tips]
