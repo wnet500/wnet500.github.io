@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 맥북(MacBook) 핵심 단축키 정리
+title: 맥북(MacBook) 핵심 단축키
 subheading: 효율적으로 맥북 사용하기
 author: Jiyoung Min
 categories: [Summary & Tips]
