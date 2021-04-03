@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 핵심 맥북(MacBook) 단축키 정리
+title: 맥북(MacBook) 핵심 단축키 정리
 subheading: 효율적으로 맥북 사용하기
 author: Jiyoung Min
 categories: [Summary & Tips]
@@ -13,7 +13,6 @@ banner: https://cdn.mos.cms.futurecdn.net/uWjEogFLUTBc8mSvagdiuP-1024-80.jpg.web
 노트북으로 작업할 때, 맥북 단축키만 잘 써도 업무 효율을 올릴 수 있다.  
 이 포스트는 여러 단축키 중, 자주 사용될 수 있는 유용한 단축키들에 대해 정리해보고자 한다.
 
-<br/>
 
 ## 1. 기본 시스템 환경에서
 
@@ -33,11 +32,11 @@ banner: https://cdn.mos.cms.futurecdn.net/uWjEogFLUTBc8mSvagdiuP-1024-80.jpg.web
 ### - 트랙패드
 * <u>손가락 3개 위로 쓸어 올리기</u>:   
   해당 작업 화면 보기 / 우측 상단 + 버튼으로 다른 작업 화면 추가/제거
+
 * <u>손가락 3개로 오른쪽/왼쪽 쓸기</u> : 작업 화면 이동
 
     (Tip) 어플리케이션 전체 화면을 하게 되면 “하나의 작업 화면”으로 됨
 
-<br/>
 
 ## 2. 사파리(Safari) / 크롬(Chrome)에서
 
@@ -57,7 +56,6 @@ banner: https://cdn.mos.cms.futurecdn.net/uWjEogFLUTBc8mSvagdiuP-1024-80.jpg.web
 * <u>트랙 패드 상단에서 손가락 2개 오른쪽/왼쪽 쓸기</u> :   
   페이지 앞으로가기, 뒤로가기
 
-<br/>
 
 ## 3. 마그넷(Magnet) 어플리케이션에서
 
