@@ -5,7 +5,7 @@ subheading: 개발 시간을 단축시켜주는 유용한 단축키
 author: Jiyoung Min
 categories: [Summary & Tips]
 tags: [vscode, tutorial]
-banner: https://northcreation.agency/assets/Uploads/VSCode.png
+banner: https://code.visualstudio.com/opengraphimg/opengraph-home.png
 ---
 
 ## VSCode (Visual Studio Code)
