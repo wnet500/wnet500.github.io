@@ -49,7 +49,6 @@ sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-lea
 ### B. <u> CUDA 패키지 다운로드 (cuDNN 라이브러리 포함) </u>
 
 - CUDA 버젼 선택
-  
   - pytorch를 위해 최신 11.1 버젼 설치 (2021.04.05 기준)   
   - 2번 째 줄에서 sudo apt install cuda-"버젼", 11.1일 경우 11-1 입력  
   
