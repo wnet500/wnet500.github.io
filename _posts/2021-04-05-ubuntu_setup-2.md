@@ -25,7 +25,7 @@ banner: https://cdn.arstechnica.net/wp-content/uploads/2019/11/ubuntu1910-deskto
   다음 커멘드를 통해 유저 아이디 생성하자
 
 - 아래 커멘드에서 "newuser"를 실제 유저가 사용할 아이디로 변경해 주자   
-  ex. sudo adduser wnet500
+  ex. `sudo adduser wnet500`
 
 - Full Name, Work phone, Other에 이메일 주소를 입력하게 하여 유저를 인식하고 관리하기 편하게 하면 좋다.
 

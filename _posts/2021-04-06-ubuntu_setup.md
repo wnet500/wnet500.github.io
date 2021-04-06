@@ -103,13 +103,15 @@ fi
 ## 5. Conda 가상환경 만들기
 
 - 가상환경의 정의와 필요 이유
+<br/>
+
 > A virtual environment is a named, isolated, working copy of Python that that maintains its own files, directories, and paths so that you can work with specific versions of libraries or Python itself without affecting other Python projects. Virtual environmets make it easy to cleanly separate different projects and avoid problems with different dependencies and version requiremetns across components. The conda command is the preferred interface for managing intstallations and virtual environments with the Anaconda Python distribution. If you have a vanilla Python installation or other Python distribution see [virtualenv](https://virtualenv.pypa.io/en/latest/)
 <br/>
 
 - 다음 커멘드들을 실행하여, 아나콘다 가상환경을 만들 수 있다.   
   -n은 name을 의미한다. 따라서, "envname"에는 사용할 가상환경 이름을 적어두고, python=x.x에는 파이썬 버젼을 명시하면 된다.
-  가장 마지막 anaconda라고 추가하므로써, 아나콘다에서 기본으로 갖추고있는 파이썬 라이브러리 셋을 가질 수 있다.
-  ex. conda create -n torch python=3.8 anaconda
+  가장 마지막 anaconda라고 추가하므로써, 아나콘다에서 기본으로 갖추고있는 파이썬 라이브러리 셋을 가질 수 있다.   
+  ex. `conda create -n torch python=3.8 anaconda`
   
 ```
 conda update conda
@@ -125,7 +127,7 @@ conda info --envs
 <br/>
 
 - 가상환경이 제대로 만들어진 것을 확인한 후, 생성한 가상환경을 다음과 같이 activate할 수 있다.   
-  ex. conda activate torch
+  ex. `conda activate torch`
 
 ```
 conda activate "envname"
