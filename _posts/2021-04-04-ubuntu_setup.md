@@ -43,13 +43,12 @@ sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/
 sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
 ```
 
-1. <u> CUDA 패키지 다운로드 (cuDNN 라이브러리 포함) </u>
+2. <u> CUDA 패키지 다운로드 (cuDNN 라이브러리 포함) </u>
 
 - CUDA 버젼 선택
-  - pytorch를 위해 최신 11.1 버젼 설치 (2021.04.05 기준)   
   
+  - pytorch를 위해 최신 11.1 버젼 설치 (2021.04.05 기준)   
   - tensorflow를 위해 최신 11.0 버젼 설치 (2021.04.05 기준)
-
   - 2번 째 줄에서 sudo apt install cuda-"버젼", 11.1일 경우 11-1 입력  
   
 ```
@@ -58,7 +57,7 @@ sudo apt install cuda-11-1
 sudo apt install libcudnn7
 ```
 
-2. <u> CUDA를 PATH에 추가 </u>
+3. <u> CUDA를 PATH에 추가 </u>
 
 - vim 설치가 필요한 경우 설치
 
@@ -75,6 +74,7 @@ sudo vim ~/.profile
 - vim 사용법
   - sudo vim ~/.profile 이후, `i`를 입력하여 수정모드로 변환
   - 수정 후, `:wq!`를 입력하여 저장 후 종료하기
+<br/>
 
 - 마지막 줄에 다음 라이센스 코드를 추가
   - 아래 코드에서 보이는 코드에서, cuda 버젼에 따라 "cuda-xx.x"을 알맞게 수정하기   
@@ -88,14 +88,16 @@ if [ -d "/usr/local/cuda-11.1/bin/" ]; then
 fi
 ```
 
-3. <u> `nvidia-smi` 터미널 커멘드를 통해 CUDA 및 GPU 정보 확인 </u>
+4. <u> `nvidia-smi` 터미널 커멘드를 통해 CUDA 및 GPU 정보 확인 </u>
 - 본인이 CUDA 11.1을 셋팅했을 지라도, CUDA 11.2와 같이 나타날 수 있다.
   실제로는 11.1으로 사용될 것이므로 크게 걱정하지 않아도 된다.
 
 
 ## 5. 파이토치(Pytorch) 설치
-- 파이토치 홈페이지 (https://pytorch.org/)에서 본인의 CUDA 버젼 및 세팅에 맞게 선택 후, 아래 command 얻기   
-  <img src="https://drive.google.com/uc?export=view&id=1hHutqTDZzTJTxRsCG_Fksk9gebuh12GX">
+- 파이토치 홈페이지 (https://pytorch.org/)에서 본인의 CUDA 버젼 및 세팅에 맞게 선택 후, 아래 command 얻기  
+<br/>
+
+    <img src="https://drive.google.com/uc?export=view&id=1hHutqTDZzTJTxRsCG_Fksk9gebuh12GX">
 
 - 글쓴이의 경우 아래 커멘드를 실행하였다.    
 
@@ -104,7 +106,7 @@ pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f htt
 ```
  
 
-## 6. Ubuntu에 user만들고 sudo 권한 주기
+## 6. Ubuntu에 유저 생성하고 sudo 권한 주기
 
 1. <u> 유저 생성하기 </u>
 
