@@ -12,7 +12,7 @@ banner: https://cdn.arstechnica.net/wp-content/uploads/2019/11/ubuntu1910-deskto
 - 부팅 디스크를 만들어서 설치 (Ubuntu 20.04 버젼)
 
 
-## 2. Chrome 설치 (*선택 사항*) 
+## 2. Chrome 설치 (선택 사항) 
 - 파이어 폭스에서 Chrome 설치파일 다운로드
 - 다운로드 폴더에서 다운된 파일 더블 클릭하여 설치하기
 
@@ -68,7 +68,7 @@ sudo systemctl status ssh
 
 - `ip a` 커멘드를 통해 본인의 IP address를 확인할 수 있다.
 
-![](https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/ubuntu-find-ip-address_hua58286b4106aa3a1227461c6d8218e94_151586_768x0_resize_q75_lanczos.jpg?ezimgfmt=rs:726x545/rscb87/ng:webp/ngcb87)
+    <img src="https://drive.google.com/uc?export=view&id=1TEKg_R9BDPnI5KsURwG8aOkd5DjXTK6d">
 
 (4.1 내용은 다음 [포스팅](https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/)을 참고했다.)
 
