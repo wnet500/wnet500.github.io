@@ -36,13 +36,17 @@ sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-lea
 ### B. <u> CUDA 패키지 다운로드 (cuDNN 라이브러리 포함) </u>
 
 - CUDA 버젼 선택
-  - pytorch를 위해 최신 11.1 버젼 설치 (2021.04.05 기준)   
-  - 2번 째 줄에서 sudo apt install cuda-"버젼", 11.1일 경우 11-1 입력  
+  - pytorch를 위해 11.1 버젼 설치 결정 (2021.04.05 기준)   
+    [여기](https://pytorch.org/get-started/locally/)에서 사용가능한 CUDA 버젼 확인 및 버젼 결정
+
+  - 2번 째 줄에서 sudo apt install cuda-"버젼", 11.1일 경우 버젼에 11-1 입력  
+  - 3번 째 줄에서 sudo apt install libcudnn"Major 버젼", CUDA 11.1의 경우 cuDNN 8.x.x버젼이 필요하므로, Major 버젼에 8 입력    
+    (CUDA와 cuDNN의 compatibility는 [여기](https://docs.nvidia.com/deeplearning/cudnn/support-matrix/index.html)에서 확인해 볼 수 있다.)
   
 ```
 sudo apt update
 sudo apt install cuda-11-1
-sudo apt install libcudnn7
+sudo apt install libcudnn8
 ```
 
 ### C. <u> CUDA를 PATH에 추가 </u>
@@ -68,7 +72,7 @@ sudo vim ~/.profile
 <br/>
 
 - 마지막 줄에 다음 라이센스 코드를 추가
-  - 아래 코드에서 보이는 코드에서, cuda 버젼에 따라 "cuda-xx.x"을 알맞게 수정하기   
+  - 아래 코드에서 보이는 코드에서, cuda 버젼에 따라 모든 "cuda-xx.x"을 알맞게 수정하기   
     이 포스팅에서는 cuda 11.1을 사용하므로, "cuda-11.1"을 사용
 
 ```
@@ -89,6 +93,10 @@ fi
 
   <img src="https://drive.google.com/uc?export=view&id=1CRrP0yZZyVD-XV9McVopTPtRz7zgusXX">
 
-(2. 내용은 다음 [포스팅](https://medium.com/@stephengregory_69986/installing-cuda-10-1-on-ubuntu-20-04-e562a5e724a0)을 참고했다.)
+ - cuDNN 확인, 다음 커맨드를 실행하여 버젼 확인
 
- 
+```
+/sbin/ldconfig -N -v $(sed ‘s/:/ /’ <<< $LD_LIBRARY_PATH) 2>/dev/null | grep libcudnn
+```
+
+(2. 내용은 다음 [포스팅](https://medium.com/@stephengregory_69986/installing-cuda-10-1-on-ubuntu-20-04-e562a5e724a0)을 참고했다.)

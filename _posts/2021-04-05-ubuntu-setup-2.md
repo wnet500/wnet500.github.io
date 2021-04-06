@@ -65,7 +65,8 @@ sudo usermod -aG sudo "newuser"
 <br/>
 
 - 다음 커멘드들을 실행하여, 아나콘다 가상환경을 만들 수 있다.   
-  -n은 name을 의미한다. "envname"에는 사용할 가상환경 이름을 적어두고, python=x.x에는 파이썬 버젼을 명시하면 된다.
+  -n은 name을 의미한다. "envname"에는 사용할 가상환경 이름을 적어두고, python=x.x에는 파이썬 버젼을 명시하면 된다.   
+  현재 (21.04.05) 기준으로는 python 3.8이나 3.9버젼을 사용하면 되나, 3.8이 좀 더 안정적이다.   
   가장 마지막에 anaconda라고 추가하므로써, 아나콘다에서 기본으로 갖추고있는 파이썬 라이브러리 셋을 가질 수 있다.   
   ex. `conda create -n torch python=3.8 anaconda`
   
