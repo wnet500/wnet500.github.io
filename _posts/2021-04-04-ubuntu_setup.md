@@ -5,7 +5,7 @@ subheading: 딥러닝을 위한 서버 세팅
 author: Jiyoung Min, Kyung Hyun Lee
 categories: [Summary & Tips]
 tags: [tutorial, server setting]
-banner: https://i1.wp.com/build5nines.com/wp-content/uploads/2019/09/Ubuntu_Featured_Image.jpg?fit=900%2C506&ssl=1
+banner: https://cdn.arstechnica.net/wp-content/uploads/2019/11/ubuntu1910-desktop-1-1280x720.jpg
 ---
 
 ## 1. 서버에 Ubuntu 설치
