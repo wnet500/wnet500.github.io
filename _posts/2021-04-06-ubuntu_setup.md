@@ -72,6 +72,7 @@ sudo vim ~/.profile
 - vim 사용법
   - sudo vim ~/.profile 이후, `i`를 입력하여 수정모드로 변환
   - 수정 후, `:wq!`를 입력하여 저장 후 종료하기
+
 <br/>
 
 - 마지막 줄에 다음 라이센스 코드를 추가
@@ -92,12 +93,47 @@ fi
 
 - 본인이 CUDA 11.1을 셋팅했을 지라도, CUDA 11.2와 같이 나타날 수 있다.
   실제로는 11.1으로 사용될 것이므로 크게 걱정하지 않아도 된다.
+<br/>
+
+  <img src="https://drive.google.com/uc?export=view&id=1CRrP0yZZyVD-XV9McVopTPtRz7zgusXX">
 
 (3. 내용은 다음 [포스팅](https://medium.com/@stephengregory_69986/installing-cuda-10-1-on-ubuntu-20-04-e562a5e724a0)을 참고했다.)
 
 
+## 5. Conda 가상환경 만들기
+
+- 가상환경의 정의와 필요 이유
+> A virtual environment is a named, isolated, working copy of Python that that maintains its own files, directories, and paths so that you can work with specific versions of libraries or Python itself without affecting other Python projects. Virtual environmets make it easy to cleanly separate different projects and avoid problems with different dependencies and version requiremetns across components. The conda command is the preferred interface for managing intstallations and virtual environments with the Anaconda Python distribution. If you have a vanilla Python installation or other Python distribution see [virtualenv](https://virtualenv.pypa.io/en/latest/)
+<br/>
+
+- 다음 커멘드들을 실행하여, 아나콘다 가상환경을 만들 수 있다.   
+  -n은 name을 의미한다. 따라서, "envname"에는 사용할 가상환경 이름을 적어두고, python=x.x에는 파이썬 버젼을 명시하면 된다.
+  가장 마지막 anaconda라고 추가하므로써, 아나콘다에서 기본으로 갖추고있는 파이썬 라이브러리 셋을 가질 수 있다.
+  ex. conda create -n torch python=3.8 anaconda
+  
+```
+conda update conda
+conda create -n "envname" python=x.x anaconda
+```
+<br/>
+
+- 다음 커맨드를 통해 제대로 가상환경이 만들어졌는지 가상환경 리스트를 확인할 수 있다.
+
+```
+conda info --envs
+```
+<br/>
+
+- 가상환경이 제대로 만들어진 것을 확인한 후, 생성한 가상환경을 다음과 같이 activate할 수 있다.   
+  ex. conda activate torch
+
+```
+conda activate "envname"
+```
+
+
 ## 4. 파이토치(Pytorch) 설치
-- 파이토치 홈페이지 (https://pytorch.org/)에서 본인의 CUDA 버젼 및 세팅에 맞게 선택 후, 아래 command 얻기  
+- 파이토치 홈페이지 (https://pytorch.org/)에서 본인의 CUDA 버젼 및 세팅에 맞게 선택 후, 아래에서 실행할 command 얻기  
 <br/>
 
     <img src="https://drive.google.com/uc?export=view&id=1hHutqTDZzTJTxRsCG_Fksk9gebuh12GX">
