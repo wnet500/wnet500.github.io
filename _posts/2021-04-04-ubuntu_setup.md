@@ -13,8 +13,8 @@ banner: https://i1.wp.com/build5nines.com/wp-content/uploads/2019/09/Ubuntu_Feat
 
 
 ## 2. Chrome 설치
-- 파이어 폭스에서 Chrome 설치
-- 다운로드 폴더에서 다운된 파일 더블 클릭 
+- 파이어 폭스에서 Chrome 설치파일 다운로드
+- 다운로드 폴더에서 다운된 파일 더블 클릭하여 설치하기
 
 
 ## 3. Anaconda 설치
@@ -22,7 +22,7 @@ banner: https://i1.wp.com/build5nines.com/wp-content/uploads/2019/09/Ubuntu_Feat
     <img src="https://drive.google.com/uc?export=view&id=1xWbWGBFVMCfI0Ym3CWkNpHsEvJqOdUil">
     
 - 터미널에서 다운로드폴더로 이동 후, bash "다운로드된 파일 이름"   
-  ex. bash ~/Downloads/Anaconda3-2020.11-Linux-x86_64.sh
+  ex. `bash ~/Downloads/Anaconda3-2020.11-Linux-x86_64.sh`
 
 
 ## 4. CUDA toolkit & cuDNN 설치
@@ -31,9 +31,13 @@ banner: https://i1.wp.com/build5nines.com/wp-content/uploads/2019/09/Ubuntu_Feat
 - cuDNN : GPU 병렬 처리를 위해 필요
 
 1. <u>CUDA PPA 셋업</u>   
-   https://medium.com/@stephengregory_69986 참고
-  
+
+> CUDA PPA란?  
 > Essentially, we’re adding CUDA to our sources.list, which is the file that’s referenced any time we use the apt package manager to download stuff in the terminal with a command like “sudo apt update”
+
+(7.1 내용은 다음 [포스팅](https://medium.com/@stephengregory_69986/installing-cuda-10-1-on-ubuntu-20-04-e562a5e724a0)을 참고했다.)
+
+- 다음 커멘드들을 실행하기
 
 ```
 sudo apt update
@@ -48,7 +52,6 @@ sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-lea
 - CUDA 버젼 선택
   
   - pytorch를 위해 최신 11.1 버젼 설치 (2021.04.05 기준)   
-  - tensorflow를 위해 최신 11.0 버젼 설치 (2021.04.05 기준)
   - 2번 째 줄에서 sudo apt install cuda-"버젼", 11.1일 경우 11-1 입력  
   
 ```
@@ -89,6 +92,7 @@ fi
 ```
 
 4. <u> `nvidia-smi` 터미널 커멘드를 통해 CUDA 및 GPU 정보 확인 </u>
+
 - 본인이 CUDA 11.1을 셋팅했을 지라도, CUDA 11.2와 같이 나타날 수 있다.
   실제로는 11.1으로 사용될 것이므로 크게 걱정하지 않아도 된다.
 
@@ -111,9 +115,9 @@ pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f htt
 1. <u> 유저 생성하기 </u>
 
 - Ubuntu를 설치하고, root계정으로 위와 같은 GPU와 딥러닝 프레임워크 사용을 위한 세팅이 끝났으면, 새로운 유저 아이디를 만들어 사용하는 것이 좋다.
-  다음 커멘드를 통해 유저 아이디 생성하자.
+  다음 커멘드를 통해 유저 아이디 생성하자
 
-- 아래 커멘드에서 "newuser"를 실제 유저가 사용할 아이디로 변경해 주자.   
+- 아래 커멘드에서 "newuser"를 실제 유저가 사용할 아이디로 변경해 주자   
   ex. sudo adduser wnet500
 
 - Full Name, Work phone, Other에 이메일 주소를 입력하게 하여 유저를 인식하고 관리하기 편하게 하면 좋다.
@@ -126,7 +130,7 @@ sudo adduser "newuser"
 
 2. <u> 유저에게 sudo 권한 부여하기 </u>
 
-- 관리자 유저에게 sudo 권한을 주어 전반적인 관리를 가능하게 할 수 있다. 다음 커멘드를 통해 sudo group에 해당 유저를 추가해 주자.
+- 관리자 유저에게 sudo 권한을 주어 전반적인 관리를 가능하게 할 수 있다. 다음 커멘드를 통해 sudo group에 해당 유저를 추가해 주자
 
 ```
 sudo usermod -aG sudo "newuser"
