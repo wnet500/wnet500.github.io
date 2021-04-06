@@ -22,7 +22,7 @@ banner: https://cdn.arstechnica.net/wp-content/uploads/2019/11/ubuntu1910-deskto
 <br/>  
     <img src="https://drive.google.com/uc?export=view&id=1xWbWGBFVMCfI0Ym3CWkNpHsEvJqOdUil">
     
-- 터미널에서 다운로드폴더로 이동 후, bash "다운로드된 파일 이름"   
+- 터미널에서 다운로드 폴더로 이동 후, bash "다운로드된 파일 이름"   
   ex. `bash ~/Downloads/Anaconda3-2020.11-Linux-x86_64.sh`
 
 
@@ -76,6 +76,7 @@ sudo vim ~/.profile
 - vim 사용법
   - sudo vim ~/.profile 이후, `i`를 입력하여 수정모드로 변환
   - 수정 후, `:wq!`를 입력하여 저장 후 종료하기
+
 <br/>
 
 - 마지막 줄에 다음 라이센스 코드를 추가
@@ -90,7 +91,9 @@ if [ -d "/usr/local/cuda-11.1/bin/" ]; then
 fi
 ```
 
-### D. `nvidia-smi` <u> 터미널 커멘드를 통해 CUDA 및 GPU 정보 확인 </u>
+### D. <u> CUDA 및 GPU 정보 확인 </u>
+
+- `nvidia-smi` 커멘드 실행하기
 
 - 본인이 CUDA 11.1을 셋팅했을 지라도, CUDA 11.2와 같이 나타날 수 있다.
   실제로는 11.1으로 사용될 것이므로 크게 걱정하지 않아도 된다.
@@ -142,7 +145,7 @@ sudo usermod -aG sudo "newuser"
 
 ## 7. SSH 설정하기
 
-### A. SSH 원격접속이 가능하도록 설정하기
+### A. <u> SSH 원격접속이 가능하도록 설정하기 </u>
 
 - 터미널에서 `openssh-server` 패키지 설치하기.
 
@@ -163,7 +166,7 @@ sudo systemctl status ssh
 ![](https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/ubuntu-find-ip-address_hua58286b4106aa3a1227461c6d8218e94_151586_768x0_resize_q75_lanczos.jpg?ezimgfmt=rs:709x532/rscb87/ng:webp/ngcb87)
 (7.1 내용은 다음 [포스팅](https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/)을 참고했다.)
 
-### B. SSH Port 변경하기
+### B. <u> SSH Port 변경하기 </u>
 
 - 기본 포트는 default로 **22**로 설정되어 있다. 원하는 Port 번호로 변경할 수 있다.   
   다음 커멘드를 실행하고, 편집기에서 `# Port 22` 라고 입력되어 있는 줄을   
