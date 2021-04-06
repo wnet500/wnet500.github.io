@@ -27,6 +27,10 @@ banner: https://cdn.mos.cms.futurecdn.net/uWjEogFLUTBc8mSvagdiuP-1024-80.jpg.web
 *  <u>Command + Q</u> : 어플리케이션 종료
 
 *  <u>Command + Space</u> : Spotlight 실행 (어플리케이션 검색 + 실행에 유용)
+
+*  <u>Command + Shift + 3 : 전체 화면 스크린샷 (바탕하면에 png 이미지 파일 저장됨)
+
+*  <u>Command + Shift + 4 : 선택한 화면 영역 스크린샷 (바탕하면에 png 이미지 파일 저장됨)
 <br/>
 
 ### - 트랙패드
