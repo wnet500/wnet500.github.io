@@ -14,7 +14,7 @@ banner: https://cdn.arstechnica.net/wp-content/uploads/2019/11/ubuntu1910-deskto
 
 ### A. <u> SSH 원격접속이 가능하도록 설정하기 </u>
 
-- 터미널에서 `openssh-server` 패키지 설치하기.
+- 터미널에서 `openssh-server` 패키지 설치하기
 
 ```
 sudo apt update
