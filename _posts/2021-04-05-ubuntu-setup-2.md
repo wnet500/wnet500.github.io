@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 우분투(Ubuntu) 서버에 Anaconda, Pytorch 세팅
+title: 우분투(Ubuntu) 서버에 Anaconda와 Pytorch 세팅
 subheading: 딥러닝을 위한 서버 세팅 (2)
 author: Jiyoung Min, Kyung Hyun Lee
 categories: [Summary & Tips]
