@@ -166,7 +166,8 @@ sudo systemctl status ssh
 ### B. SSH Port 변경하기
 
 - 기본 포트는 default로 **22**로 설정되어 있다. 원하는 Port 번호로 변경할 수 있다.   
-  다음 커멘드를 실행하고, 편집기에서 `# Port 22` 라고 입력되어 있는 줄을 `Port "your desired port"`로 변경해 주면 된다.   
+  다음 커멘드를 실행하고, 편집기에서 `# Port 22` 라고 입력되어 있는 줄을   
+  `Port "your desired port"`로 변경해 주면 된다.   
   ex. `Port 8822`
 
 ```
