@@ -38,7 +38,6 @@ sudo adduser "newuser"
 ```
 sudo usermod -aG sudo "newuser"
 ```
-<br/>
 
 - `sudo su "newuser"`를 실행하여 새로 생성한 유저 아이디로 로그인할 수 있다.
 

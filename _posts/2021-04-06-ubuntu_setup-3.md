@@ -23,7 +23,8 @@ sudo apt install openssh-server
 <br/>
 
 - 패키지가 설치되었다면, 자동으로 SSH service가 시작될 것이다. 성공적으로 설치되었는지 확인하기 위해 다음 커멘드를 실행해 본다.   
-  `Active: active (running)`과 같은 문구가 보이면 성공적으로 작동하고 있는 것임을 알 수 있다. q를 눌러 커멘드창으로 돌아올 수 있다.
+  `Active: active (running)`과 같은 문구가 보이면 성공적으로 작동하고 있는 것임을 알 수 있다.    
+  q를 눌러 커멘드창으로 돌아올 수 있다.
 
 ```
 sudo systemctl status ssh
@@ -39,7 +40,7 @@ sudo systemctl status ssh
 ### B. <u> SSH Port 변경하기 </u>
 
 - 기본 포트는 default로 **22**로 설정되어 있다. 원하는 Port 번호로 변경할 수 있다.   
-  다음 커멘드를 실행하고, 편집기에서 `# Port 22` 라고 입력되어 있는 줄을   
+  다음 커멘드를 실행하고, 편집기에서 **# Port 22** 라고 입력되어 있는 줄을   
   `Port "your desired port"`로 변경해 주면 된다.   
   ex. `Port 8822`
 
