@@ -30,12 +30,10 @@ banner: https://i1.wp.com/build5nines.com/wp-content/uploads/2019/09/Ubuntu_Feat
 - CUDA : NVIDIA GPU 컴퓨팅을 위한 툴킷
 - cuDNN : GPU 병렬 처리를 위해 필요
 
-1. <u>CUDA PPA 셋업</u>   
+### A. <u>CUDA PPA 셋업</u>   
 
 > CUDA PPA란?  
 > Essentially, we’re adding CUDA to our sources.list, which is the file that’s referenced any time we use the apt package manager to download stuff in the terminal with a command like “sudo apt update”
-
-(7.1 내용은 다음 [포스팅](https://medium.com/@stephengregory_69986/installing-cuda-10-1-on-ubuntu-20-04-e562a5e724a0)을 참고했다.)
 
 - 다음 커멘드들을 실행하기
 
@@ -47,7 +45,7 @@ sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/
 sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
 ```
 
-2. <u> CUDA 패키지 다운로드 (cuDNN 라이브러리 포함) </u>
+### B. <u> CUDA 패키지 다운로드 (cuDNN 라이브러리 포함) </u>
 
 - CUDA 버젼 선택
   
@@ -60,7 +58,7 @@ sudo apt install cuda-11-1
 sudo apt install libcudnn7
 ```
 
-3. <u> CUDA를 PATH에 추가 </u>
+### C. <u> CUDA를 PATH에 추가 </u>
 
 - vim 설치가 필요한 경우 설치
 
@@ -91,10 +89,12 @@ if [ -d "/usr/local/cuda-11.1/bin/" ]; then
 fi
 ```
 
-4. <u> `nvidia-smi` 터미널 커멘드를 통해 CUDA 및 GPU 정보 확인 </u>
+### D. `nvidia-smi` <u> 터미널 커멘드를 통해 CUDA 및 GPU 정보 확인 </u>
 
 - 본인이 CUDA 11.1을 셋팅했을 지라도, CUDA 11.2와 같이 나타날 수 있다.
   실제로는 11.1으로 사용될 것이므로 크게 걱정하지 않아도 된다.
+
+(4. 내용은 다음 [포스팅](https://medium.com/@stephengregory_69986/installing-cuda-10-1-on-ubuntu-20-04-e562a5e724a0)을 참고했다.)
 
 
 ## 5. 파이토치(Pytorch) 설치
@@ -112,7 +112,7 @@ pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f htt
 
 ## 6. Ubuntu에 유저 생성하고 sudo 권한 주기
 
-1. <u> 유저 생성하기 </u>
+### A. <u> 유저 생성하기 </u>
 
 - Ubuntu를 설치하고, root계정으로 위와 같은 GPU와 딥러닝 프레임워크 사용을 위한 세팅이 끝났으면, 새로운 유저 아이디를 만들어 사용하는 것이 좋다.
   다음 커멘드를 통해 유저 아이디 생성하자
@@ -128,7 +128,7 @@ sudo adduser "newuser"
 
 ![](https://phoenixnap.com/kb/wp-content/uploads/2019/03/creating-sudo-user-ubuntu1.png)
 
-2. <u> 유저에게 sudo 권한 부여하기 </u>
+### B. <u> 유저에게 sudo 권한 부여하기 </u>
 
 - 관리자 유저에게 sudo 권한을 주어 전반적인 관리를 가능하게 할 수 있다. 다음 커멘드를 통해 sudo group에 해당 유저를 추가해 주자
 
@@ -141,7 +141,7 @@ sudo usermod -aG sudo "newuser"
 
 ## 7. SSH 설정하기
 
-1. SSH 원격접속이 가능하도록 설정하기
+### A. SSH 원격접속이 가능하도록 설정하기
 
 - 터미널에서 `openssh-server` 패키지 설치하기.
 
@@ -162,7 +162,7 @@ sudo systemctl status ssh
 ![](https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/ubuntu-find-ip-address_hua58286b4106aa3a1227461c6d8218e94_151586_768x0_resize_q75_lanczos.jpg?ezimgfmt=rs:709x532/rscb87/ng:webp/ngcb87)
 (7.1 내용은 다음 [포스팅](https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/)을 참고했다.)
 
-2. SSH Port 변경하기
+### B. SSH Port 변경하기
 
 - 기본 포트는 default로 **22**로 설정되어 있다. 원하는 Port 번호로 변경할 수 있다.   
   다음 커멘드를 실행하고, 편집기에서 `# Port 22` 라고 입력되어 있는 줄을 `Port "your desired port"`로 변경해 주면 된다.   
