@@ -39,6 +39,8 @@ sudo adduser "newuser"
 sudo usermod -aG sudo "newuser"
 ```
 
+- `groups "newuser"`를 실행하여 *newuser : newuser sudo*와 같이 sudo 그룹에 포함됐는지 확인해본다.
+
 - `sudo su "newuser"`를 실행하여 새로 생성한 유저 아이디로 로그인할 수 있다.
 
 (2. 내용은 다음 [포스팅](https://phoenixnap.com/kb/how-to-create-sudo-user-on-ubuntu)을 참고했다.)
