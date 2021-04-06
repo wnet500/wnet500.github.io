@@ -39,7 +39,7 @@ banner: https://cdn.mos.cms.futurecdn.net/uWjEogFLUTBc8mSvagdiuP-1024-80.jpg.web
 
 * <u>손가락 3개로 오른쪽/왼쪽 쓸기</u> : 작업 화면 이동
 
-    (Tip) 어플리케이션 전체 화면을 하게 되면 “하나의 작업 화면”으로 됨
+    (**Tip**) 어플리케이션 전체 화면을 하게 되면 “하나의 작업 화면”으로 됨
 
 
 ## 2. 사파리(Safari) / 크롬(Chrome)에서
