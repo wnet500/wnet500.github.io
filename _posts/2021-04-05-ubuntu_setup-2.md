@@ -89,3 +89,6 @@ sudo vim /etc/ssh/sshd_config
 ```
 sudo service ssh restart
 ```
+
+
+## 5. SSH 외부 IP, Port 설정하기
