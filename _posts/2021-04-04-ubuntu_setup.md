@@ -19,6 +19,7 @@ banner: https://i1.wp.com/build5nines.com/wp-content/uploads/2019/09/Ubuntu_Feat
 
 ## 3. Anaconda 설치
 - 공식 홈페이지 (https://www.anaconda.com/products/individual)에서 리눅스 x86 버젼을 다운로드
+<br/>  
     <img src="https://drive.google.com/uc?export=view&id=1xWbWGBFVMCfI0Ym3CWkNpHsEvJqOdUil">
     
 - 터미널에서 다운로드폴더로 이동 후, bash "다운로드된 파일 이름"   
