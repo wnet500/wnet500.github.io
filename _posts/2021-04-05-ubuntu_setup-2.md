@@ -70,7 +70,7 @@ sudo systemctl status ssh
 
     <img src="https://drive.google.com/uc?export=view&id=1TEKg_R9BDPnI5KsURwG8aOkd5DjXTK6d">
 
-(4.1 내용은 다음 [포스팅](https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/)을 참고했다.)
+(4.A 내용은 다음 [포스팅](https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/)을 참고했다.)
 
 ### B. <u> SSH Port 변경하기 </u>
 
@@ -92,3 +92,5 @@ sudo service ssh restart
 
 
 ## 5. SSH 외부 IP, Port 설정하기
+
+-  추가 예정
