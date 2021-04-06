@@ -66,12 +66,14 @@ sudo apt install libcudnn7
 ```
 sudo apt-get install vim
 ```
+<br/>
 
 - vim을 이용해 .profile 파일 열기
 
 ```
 sudo vim ~/.profile
 ```
+<br/>
 
 - vim 사용법
   - sudo vim ~/.profile 이후, `i`를 입력하여 수정모드로 변환
@@ -153,6 +155,7 @@ sudo usermod -aG sudo "newuser"
 sudo apt update
 sudo apt install openssh-server
 ```
+<br/>
 
 - 패키지가 설치되었다면, 자동으로 SSH service가 시작될 것이다. 성공적으로 설치되었는지 확인하기 위해 다음 커멘들을 실행해 본다.   
   `Active: active (running)`과 같은 문구가 보이면 성공적으로 작동하고 있는 것임을 알 수 있다. q를 눌러 커멘드창으로 돌아올 수 있다.
@@ -160,6 +163,7 @@ sudo apt install openssh-server
 ```
 sudo systemctl status ssh
 ```
+<br/>
 
 - `ip a` 커멘드를 통해 본인의 IP address를 확인할 수 있다.
 
@@ -176,6 +180,7 @@ sudo systemctl status ssh
 ```
 sudo vim /etc/ssh/sshd_config
 ```
+<br/>
 
 - 이제 다음 커멘드를 통해 ssh 서비스를 restart하면, 포트 변경 설정이 완료된다.
 
