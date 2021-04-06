@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 우분투(Ubuntu) 서버에 CUDA, cuDNN 세팅
+title: 우분투(Ubuntu) 서버에 CUDA와 cuDNN 세팅
 subheading: 딥러닝을 위한 서버 세팅 (1)
 author: Jiyoung Min, Kyung Hyun Lee
 categories: [Summary & Tips]
@@ -23,7 +23,7 @@ banner: https://res.cloudinary.com/practicaldev/image/fetch/s--5Epkp0zJ--/c_imag
 > CUDA PPA란?  
 > Essentially, we’re adding CUDA to our sources.list, which is the file that’s referenced any time we use the apt package manager to download stuff in the terminal with a command like “sudo apt update”
 
-- 다음 커멘드들을 실행하기
+- 다음 커멘드들 실행하기
 
 ```
 sudo apt update
