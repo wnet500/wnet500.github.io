@@ -5,7 +5,7 @@ subheading: 딥러닝을 위한 서버 세팅
 author: Jiyoung Min, Kyung Hyun Lee
 categories: [Summary & Tips]
 tags: [tutorial, server setting]
-banner: https://i.pinimg.com/564x/8d/dd/29/8ddd294fc0582e519a81670baa8fd1c1.jpg
+banner: https://analyticsindiamag.com/wp-content/uploads/2020/11/Pytorch-1600x835.png
 ---
 
 ## 1. 서버에 Ubuntu 20.04 설치
