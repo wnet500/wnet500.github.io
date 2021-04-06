@@ -88,11 +88,12 @@ Host BELab
   - **Jupyter** (쥬피터 노트북)
   - **Pylance** (Python language support, 코드 작성에 편리)
   - **Python Indent** (파이썬 자동 내어쓰기)
-  - **Tabnine Autocomplete AI** or **Visual Studio IntelliCode** or **Kite AutoComplete AI** (코드 자동 추천 및 완성)
+  - **Tabnine Autocomplete AI** or **Visual Studio IntelliCode** or **Kite AutoComplete AI** (코드 추천 및 자동완성)
+
 <br/>
 
-- 파이썬 파일을 저장할 폴더 선택 (Open Folder)   
-  글쓴이의 경우 홈 디렉토리의 "vscode"라는 폴더 선택 (이미 존재하는 폴더만 선택 가능)
+- 파이썬 파일을 저장할 폴더 선택
+  Open Folder -> 글쓴이의 경우 홈 디렉토리의 "vscode"라는 폴더 선택 (이미 존재하는 폴더만 선택 가능)
 
     <img src="https://drive.google.com/uc?export=view&id=1UGgTTmKRbAYdaL5cPOKRSRN3-dGQHfmJ">
 <br/>
