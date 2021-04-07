@@ -5,7 +5,7 @@ subheading: git으로 버젼관리하며 코딩하기
 author: Jiyoung Min, Kyung Hyun Lee
 categories: [Summary & Tips]
 tags: [tutorial, vscode, git]
-banner: https://i.ytimg.com/vi/Fk12ELJ9Bww/maxresdefault.jpg
+banner: https://cantemo.com/news/images/background-portal-github-01.jpg
 ---
 
 ## 1. 깃(Git) & 깃허브(GitHub)
@@ -43,11 +43,11 @@ banner: https://i.ytimg.com/vi/Fk12ELJ9Bww/maxresdefault.jpg
 -  만약, <u>새로 저장소를 만들고 연동할 계획</u>이라면 다음과 같이 진행해 볼 수 있다.   
    (VSCode에서 깃허브를 연동할 당시에 새로운 저장소를 만들 수 있으나, 이 방법을 더 선호한다. VSCode 내 절차가 줄어들고 더 가시적이기 때문이다.)
 
-1. 깃허브에 로그인 후, VSCode에 연동할 새 저장소 만들기위해 `New`를 클릭한다.
+1. <u>깃허브에 로그인 후, VSCode에 연동할 새 저장소 만들기위해 `New`를 클릭한다.</u>
 
     <img src="https://drive.google.com/uc?export=view&id=1QR0lBxJBcnUzafNBnRpKsXjq2PraXuU_">
 
-2. 저장소에 대한 설정을 완료한 후, 저장소를 생성한다.
+2. <u>저장소에 대한 설정을 완료한 후, 저장소를 생성한다.</u>
    
       - `Repository name`에는 본인이 사용한 저장소 이름을 입력한다. 이 포스팅에서는 test로 설정하였다.
   
@@ -56,7 +56,7 @@ banner: https://i.ytimg.com/vi/Fk12ELJ9Bww/maxresdefault.jpg
 
     <img src="https://drive.google.com/uc?export=view&id=1VfWRX99-FLJvy9l655R4hvKRbBV0YHrX">
 
-3. 저장소가 생성되면 다음과 같은 화면을 확인할 수 있다.
+3. <u>저장소가 생성되면 다음과 같은 화면을 확인할 수 있다.</u>
     
     <img src="https://drive.google.com/uc?export=view&id=1PsEiCuFMLhn9Con_v6PxmwUUq5ITyWox">
 
