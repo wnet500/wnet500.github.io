@@ -96,7 +96,7 @@ $ git config --global user.email johndoe@example.com
 
 ## 5. VSCode에 깃허브 저장소 연동
 
-### 1. 깃 로그인 하기
+### 1. 깃허브(GitHub) 로그인 하기
 
 <img src="https://drive.google.com/uc?export=view&id=1a6XYPc7kqbsaCxdYB_w2URuaKAxUeCT_">
 
@@ -104,7 +104,7 @@ $ git config --global user.email johndoe@example.com
 
 <img src="https://drive.google.com/uc?export=view&id=1ZoauQSbCbaxYR62wCSst-yw2PzR5JHwr">
 
-### 2. 깃허브 저장소 클론해 오기
+### 2. 깃허브(GitHub) 저장소 클론해 오기
 
 - VSCode에서 `Clone Repository`선택
 
@@ -135,16 +135,16 @@ $ git config --global user.email johndoe@example.com
 
     <img src="https://drive.google.com/uc?export=view&id=136zj_DhHBBk9BvhCzb3AjGtCi2D_XXrV">
 
-- 깃 커밋하기   
+- 깃 commit하기   
   py 파일을 클릭하면, 이전과 변경된 사항을 볼 수 있다. 확인하고 커밋하면 된다.
 
     <img src="https://drive.google.com/uc?export=view&id=1qFSyVz9D2ghxu6PZiF3tgTsbrSFuwL0g">
 
-- 깃 푸쉬하기   
+- 깃 push하기   
   받아와야 할 변경사항이 있으면 pull도 같이 할 수있다. 이 포스팅에서는 화살표 윗 방향만 있어 push할 변화만 있으므로 push만 된다.
 
     <img src="https://drive.google.com/uc?export=view&id=1EVhgF2LAG8-EIprYuJfYNvzEf1Ycj68C">
 
-- 깃허브 저장소에서 변화 확인하기
+- 깃허브(GitHub) 저장소에서 변화 확인하기
 
     <img src="https://drive.google.com/uc?export=view&id=175Axc-8VDn9rLA3P1XzPYbMSjvvtBpB2">
