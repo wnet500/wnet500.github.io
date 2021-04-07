@@ -115,7 +115,7 @@ $ git config --global user.email johndoe@example.com
 
 ### 2. 깃허브(GitHub) 저장소 클론해 오기
 
-- <u>VSCode에서 `Clone Repository` > `Clone from GitHub` 선택</u>
+- <u>VSCode에서 Clone Repository > Clone from GitHub 선택</u>
 
     <img src="https://drive.google.com/uc?export=view&id=1fis7oP9bVPHa4ii3Nz_hDnm7Qs9d1UHx">
 
