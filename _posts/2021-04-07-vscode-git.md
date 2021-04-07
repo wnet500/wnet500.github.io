@@ -160,7 +160,7 @@ $ git config --global user.email johndoe@example.com
 <br/>
 
 
-- <u>깃 commit하기</u>   
+- <u>Git commit하기</u>   
   py 파일을 클릭하면, 이전과 변경된 사항을 볼 수 있다. 확인하고 커밋하면 된다.
 
     <img src="https://drive.google.com/uc?export=view&id=1qFSyVz9D2ghxu6PZiF3tgTsbrSFuwL0g">
@@ -168,7 +168,7 @@ $ git config --global user.email johndoe@example.com
 <br/>
 
 
-- <u>깃 push하기</u>   
+- <u>Git push하기</u>   
   받아와야 할 변경사항이 있으면 pull도 같이 할 수있다. 이 포스팅에서는 화살표 윗 방향만 있어 push할 변화만 있으므로 push만 하게된다.
 
     <img src="https://drive.google.com/uc?export=view&id=1EVhgF2LAG8-EIprYuJfYNvzEf1Ycj68C">
