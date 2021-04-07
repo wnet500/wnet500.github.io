@@ -5,7 +5,7 @@ subheading: git으로 버젼관리하며 코딩하기
 author: Jiyoung Min, Kyung Hyun Lee
 categories: [Summary & Tips]
 tags: [tutorial, vscode, git]
-banner: https://portswigger.net/cms/images/54/14/6efb9bc5d143-article-190612-github-body-text.jpg
+banner: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfGK246G_edTCXN2ABHn5X4gkIk06rzDp04A&usqp=CAU
 ---
 
 ## 1. 깃(Git) & 깃허브(GitHub)
