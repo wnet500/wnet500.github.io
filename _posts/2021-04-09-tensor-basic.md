@@ -16,6 +16,7 @@ tags: [tutorial, pytorch]
 
 - `BoolTensor`: True와 False를 담을 때 사용한다.
 
+<u>[코드]</u>
 
 ```python
 import torch
@@ -40,6 +41,7 @@ boolt = torch.BoolTensor([[1, 0],
                           [0, 1]])
 print("BoolTensor:\n{}\n".format(boolt))
 ```
+<u>[결과]</u>
 
     FloatTensor:
     tensor([[1., 2.],
@@ -58,6 +60,7 @@ print("BoolTensor:\n{}\n".format(boolt))
             [False,  True]])
     
 
+***
 
 ## Tensor and Numpy Compatibility
 
@@ -67,6 +70,7 @@ print("BoolTensor:\n{}\n".format(boolt))
 
 - `.numpy()`: tensor -> numpy 변환
 
+<u>[코드]</u>
 
 ```python
 import torch
@@ -85,6 +89,7 @@ print(y, type(y), "\n")
 z = y.numpy()
 print(z, type(z), "\n")
 ```
+<u>[결과]</u>
 
     [[1 2]
      [3 4]] <class 'numpy.ndarray'> 
@@ -95,6 +100,7 @@ print(z, type(z), "\n")
     [[1 2]
      [3 4]] <class 'numpy.ndarray'> 
     
+***
 
 
 ## Type casting
@@ -102,6 +108,7 @@ print(z, type(z), "\n")
 
 - `.long()`, `.float()`,`.byte()`, `.bool()` 사용
 
+<u>[코드]</u>
 
 ```python
 print("FloatTensor -> LongTensor: \n{}\n".format(ft.long()))
@@ -112,6 +119,7 @@ print("FloatTensor-> ByteTensor: \n{}\n".format(torch.FloatTensor([1, 0]).byte()
 
 print("FloatTensor-> ByteTensor: \n{}\n".format(torch.FloatTensor([1, 0]).bool()))
 ```
+<u>[결과]</u>
 
     FloatTensor -> LongTensor: 
     tensor([[1, 2],
@@ -126,6 +134,8 @@ print("FloatTensor-> ByteTensor: \n{}\n".format(torch.FloatTensor([1, 0]).bool()
     
     FloatTensor-> ByteTensor: 
     tensor([ True, False])
+***
+
     
 
 
@@ -133,6 +143,7 @@ print("FloatTensor-> ByteTensor: \n{}\n".format(torch.FloatTensor([1, 0]).bool()
 - 다음 두 가지 방법을 통해 shape를 얻을 수 있다.
 - `.size()`, `.shape`
 
+<u>[코드]</u>
 
 ```python
 x = torch.FloatTensor([[[1, 2],
@@ -148,11 +159,15 @@ x = torch.FloatTensor([[[1, 2],
 print(x.size())
 print(x.shape)
 ```
+<u>[결과]</u>
 
     torch.Size([3, 2, 2])
     torch.Size([3, 2, 2])
 
+***
 
+
+<u>[코드]</u>
 
 ```python
 #----- 0 번째 차원의 element 갯수
@@ -164,6 +179,7 @@ print()
 print(x.size(-1))
 print(x.shape[-1])
 ```
+<u>[결과]</u>
 
     3
     3
@@ -171,18 +187,24 @@ print(x.shape[-1])
     2
     2
 
+***
+
 
 ## Get number of dimensions
 - 다음 두 가지 방법을 통해 차원의 갯수를 얻을 수 있다
 - `.dim()`, `len(.size())`
 
+<u>[코드]</u>
 
 ```python
 print(x.dim())
 print(len(x.size()))
 ```
+<u>[결과]</u>
 
     3
     3
+***
+
 
 이 포스팅은 패스트캠퍼스 김기현의 딥러닝 유치원 강의 기반으로 작성되었다.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pytorch shaping (reshape, squeeze, unsqueeze)
+title: Pytorch Tensor shaping (reshape, squeeze, unsqueeze)
 subheading: Tensor 첫 걸음
 author: Jiyoung Min
 categories: [Deeplearning]
@@ -12,6 +12,7 @@ tags: [tutorial, pytorch]
 
 - `reshape`, `squeeze`, `unsqueeze` 함수를 사용할 수 있다.
 
+<u>[코드]</u>
 
 ```python
 import torch
@@ -34,6 +35,7 @@ print(x.size())
 ## 1. reshape 함수
 - 1은 "나머지 숫자는 알아서 계산해줘"라는 의미로 사용 가능하다.
 
+<u>[코드]</u>
 
 ```python
 #----- 두 연산의 결과 값은 같음
@@ -48,6 +50,7 @@ print(x.reshape(-1))
 
 ***
 
+<u>[코드]</u>
 
 ```python
 #----- 두 연산의 결과 값은 같음
@@ -66,6 +69,7 @@ print(x.reshape(3, -1))
 
 ***
 
+<u>[코드]</u>
 
 ```python
 print(x.reshape(3, 1, 4))
@@ -92,6 +96,7 @@ print(x.reshape(-1, 1, 4))
 - 오직 1개의 element를 가지고 있는 dimension을 제거할 수 있다.
 - 또한 제거할 dimensiond을 선택할 수 있다.
 
+<u>[코드]</u>
 
 ```python
 x = torch.FloatTensor([[[1, 2],
@@ -105,6 +110,7 @@ print(x.size())
 
 ***
 
+<u>[코드]</u>
 
 ```python
 print(x.squeeze())
@@ -122,6 +128,7 @@ print(x.squeeze().size())
 
 - 제거할 dim을 선택할 수 있으며, 만약 선택한 dim이 element를 한 개 가지고 있는 것이 아니면, 아무 일도 일어나지 않는다.
 
+<u>[코드]</u>
 
 ```python
 print(x.squeeze(0), x.squeeze(0).size())
@@ -142,6 +149,7 @@ print(x.squeeze(1).size()) # 아무 변화도 일어나지 않음
 ## 3. unsqueeze 함수
 - 원하는 dim 자리에 dim을 추가할 수 있다.
 
+<u>[코드]</u>
 
 ```python
 x = torch.FloatTensor([[1, 2],
@@ -155,6 +163,7 @@ print(x.size())
 
 ***
 
+<u>[코드]</u>
 
 ```python
 z = x.unsqueeze(0)
@@ -179,3 +188,5 @@ print(z, z.size())
              [4.]]]) torch.Size([2, 2, 1])
 
 ***
+
+이 포스팅은 패스트캠퍼스 김기현의 딥러닝 유치원 강의 기반으로 작성되었다.

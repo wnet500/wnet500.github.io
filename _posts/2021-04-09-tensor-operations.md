@@ -40,6 +40,7 @@ print("곱셈 연산:\n{}\n".format(a * b))
 print("나눗셈 연산:\n{}\n".format(a / b))
 
 ```
+<u>[결과]</u>
 
     덧셈 연산:
     tensor([[3., 4.],
@@ -57,6 +58,7 @@ print("나눗셈 연산:\n{}\n".format(a / b))
     tensor([[0.5000, 1.0000],
             [1.0000, 1.3333]])
     
+***
 
 
 ## 2. Sum, Mean (Dimension Reducing Operations)
@@ -67,6 +69,7 @@ print("나눗셈 연산:\n{}\n".format(a / b))
 
 ### 2차원 텐서
 
+<u>[코드]</u>
 
 ```python
 x = torch.FloatTensor([[1, 2],
@@ -74,23 +77,29 @@ x = torch.FloatTensor([[1, 2],
 print(x.sum())
 print(x.mean())
 ```
+<u>[결과]</u>
 
     tensor(10.)
     tensor(2.5000)
+***
 
 
+<u>[코드]</u>
 
 ```python
 print(x.sum(dim=0))
 print(x.mean(dim=0))
 ```
+<u>[결과]</u>
 
     tensor([4., 6.])
     tensor([2., 3.])
+***
 
 
 ### 3차원 텐서
 
+<u>[코드]</u>
 
 ```python
 x = torch.FloatTensor([[[1, 2, 2],
@@ -101,12 +110,12 @@ x = torch.FloatTensor([[[1, 2, 2],
                         [11, 12, 12]]])
 ```
 
-
 ```python
 print(x.sum(dim=0), x.size(), "\n")
 print(x.sum(dim=1), x.size(), "\n")
 print(x.sum(dim=2), x.size(), "\n") # <-> x.sum(dim=-1)
 ```
+<u>[결과]</u>
 
     tensor([[15., 18., 18.],
             [21., 24., 24.]]) torch.Size([3, 2, 3]) 
@@ -119,6 +128,7 @@ print(x.sum(dim=2), x.size(), "\n") # <-> x.sum(dim=-1)
             [17., 23.],
             [29., 35.]]) torch.Size([3, 2, 3]) 
     
+***
 
 
 ## 3. BoradCast in Operations
@@ -129,6 +139,7 @@ print(x.sum(dim=2), x.size(), "\n") # <-> x.sum(dim=-1)
 
 ### <u>Tensor + Scalar</u>
 
+<u>[코드]</u>
 
 ```python
 x = torch.FloatTensor([[1, 2],
@@ -136,17 +147,21 @@ x = torch.FloatTensor([[1, 2],
 y = 1
 ```
 
+<u>[코드]</u>
 
 ```python
 print(x + y)
 ```
+<u>[결과]</u>
 
     tensor([[2., 3.],
             [4., 5.]])
 
+***
 
 ### <u>Tensor + Vector</u>
 
+<u>[코드]</u>
 
 ```python
  x = torch.FloatTensor([[1, 2],
@@ -156,25 +171,31 @@ y = torch.FloatTensor([3, 5])
 print(x.size())
 print(y.size())
 ```
+<u>[결과]</u>
 
     torch.Size([2, 2])
     torch.Size([2])
 
+***
 
+<u>[코드]</u>
 
 ```python
 z = x + y
 print(z)
 print(z.size())
 ```
+<u>[결과]</u>
 
     tensor([[ 4.,  7.],
             [ 7., 13.]])
     torch.Size([2, 2])
 
+***
 
 ### <u>Tensor + Tensor</u>
 
+<u>[코드]</u>
 
 ```python
 x = torch.FloatTensor([[1, 2]])
@@ -184,25 +205,31 @@ y = torch.FloatTensor([[3],
 print(x.size())
 print(y.size())
 ```
+<u>[결과]</u>
 
     torch.Size([1, 2])
     torch.Size([2, 1])
 
+***
 
+<u>[코드]</u>
 
 ```python
 z = x + y
 print(z)
 print(z.size())
 ```
+<u>[결과]</u>
 
     tensor([[4., 5.],
             [6., 7.]])
     torch.Size([2, 2])
+***
 
 
 위 수행 결과는 아래와 같이 이루어 진 것과 같다.
 
+<u>[코드]</u>
 
 ```python
 x = torch.FloatTensor([[1, 2],
@@ -217,8 +244,12 @@ z = x + y
 print(z)
 print(z.size())
 ```
+<u>[결과]</u>
 
     tensor([[4., 5.],
             [6., 7.]])
     torch.Size([2, 2])
+
+***
+이 포스팅은 패스트캠퍼스 김기현의 딥러닝 유치원 강의 기반으로 작성되었다.
 
