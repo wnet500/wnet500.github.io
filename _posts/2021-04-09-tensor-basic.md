@@ -1,3 +1,12 @@
+---
+layout: post
+title: Pytorch Tensor 기본 개념 (Type, shape, etc.)
+subheading: Tensor 첫 걸음
+author: Jiyoung Min
+categories: [Deeplearning]
+tags: [tutorial, pytorch]
+---
+
 ## Tensor allocation
 - `FloatTensor`: 실수
 
