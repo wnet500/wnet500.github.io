@@ -134,6 +134,7 @@ print("FloatTensor-> ByteTensor: \n{}\n".format(torch.FloatTensor([1, 0]).bool()
     
     FloatTensor-> ByteTensor: 
     tensor([ True, False])
+
 ***
 
     
@@ -204,6 +205,7 @@ print(len(x.size()))
 
     3
     3
+
 ***
 
 
