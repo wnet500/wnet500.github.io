@@ -29,6 +29,7 @@ print(x.size())
 
     torch.Size([3, 2, 2])
 
+***
 
 ## 1. reshape 함수
 - 1은 "나머지 숫자는 알아서 계산해줘"라는 의미로 사용 가능하다.
@@ -45,6 +46,7 @@ print(x.reshape(-1))
     tensor([ 1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11., 12.])
     tensor([ 1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11., 12.])
 
+***
 
 
 ```python
@@ -62,6 +64,7 @@ print(x.reshape(3, -1))
             [ 5.,  6.,  7.,  8.],
             [ 9., 10., 11., 12.]])
 
+***
 
 
 ```python
@@ -82,6 +85,8 @@ print(x.reshape(-1, 1, 4))
     
             [[ 9., 10., 11., 12.]]])
 
+***
+
 
 ## 2. squeeze 함수
 - 오직 1개의 element를 가지고 있는 dimension을 제거할 수 있다.
@@ -98,6 +103,7 @@ print(x.size())
 
     torch.Size([1, 2, 2])
 
+***
 
 
 ```python
@@ -110,6 +116,8 @@ print(x.squeeze().size())
     tensor([[1., 2.],
             [3., 4.]])
     torch.Size([2, 2])
+
+***
 
 
 - 제거할 dim을 선택할 수 있으며, 만약 선택한 dim이 element를 한 개 가지고 있는 것이 아니면, 아무 일도 일어나지 않는다.
@@ -128,6 +136,8 @@ print(x.squeeze(1).size()) # 아무 변화도 일어나지 않음
     
     torch.Size([1, 2, 2])
 
+***
+
 
 ## 3. unsqueeze 함수
 - 원하는 dim 자리에 dim을 추가할 수 있다.
@@ -143,6 +153,7 @@ print(x.size())
 
     torch.Size([2, 2])
 
+***
 
 
 ```python
@@ -167,3 +178,4 @@ print(z, z.size())
             [[3.],
              [4.]]]) torch.Size([2, 2, 1])
 
+***
