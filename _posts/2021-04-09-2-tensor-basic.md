@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pytorch Tensor 기본 개념 (type, shape, etc.)
+title: Pytorch Tensor 기본 특성 (type, shape, etc.)
 subheading: Tensor 첫 걸음
 author: Jiyoung Min
 categories: [Deeplearning]
