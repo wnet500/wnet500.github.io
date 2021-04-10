@@ -79,6 +79,9 @@ print(x, x.size())
 - dim이 감소한다. ex. (3,3,3) -> (3,3)
 - **이미지**
 
+<img src="https://drive.google.com/uc?export=view&id=1aNH5-w_5Ti1h8ETiTUZ_btn70MaLrQ2G">
+
+
 <u>[코드]</u>
 
 ```python
