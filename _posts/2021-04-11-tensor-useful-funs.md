@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tensor를 다루는 Pytorch의 유용한 함수들 (expand, randperm, argmax, topk, sort, ones, zeros)
+title: Pytorch의 유용한 기본 함수들 (expand, randperm, argmax, topk, sort, ones, zeros)
 subheading: Tensor 첫 걸음
 author: Jiyoung Min
 categories: [Deeplearning]
@@ -8,6 +8,9 @@ tags: [tutorial, pytorch]
 ---
 
 ## Pytorch useful methods
+
+이 포스팅에서는 빈번하게 사용될 수 있는 pytorch의 기본 함수에 대해 소개한다.   
+expand, randperm, argmax, topk, sort, ones, zeros에 대해 다뤄보고자 한다.
 
 ## 1. expand
 - `.expande`는 텐서의 특정 dim을 복사하여 원하는 형태의 shape를 맞추는데 사용된다.
