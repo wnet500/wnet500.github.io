@@ -93,7 +93,6 @@ sudo -u postgres createdb wnet50094
 ```
 
 - <u>간단히 정리해 보자면, `Ubuntu 계정` = `PostgreSQL 계정` = `DB 이름` 으로 하면 편하다.</u>
-</br>
 
 - dbname을 userid가 아닌 다른 이름으로 만들고 싶을 경우,   
 슈퍼 유저일 경우에 `sudo -u SUPER_USER_ID createdb DESIRED_DBNAME` 커맨드를 수행하면 된다.
