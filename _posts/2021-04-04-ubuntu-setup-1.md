@@ -67,7 +67,7 @@ sudo vim ~/.profile
 
 - vim 사용법
   - sudo vim ~/.profile 이후, `i`를 입력하여 수정모드로 변환
-  - 수정 후, `:wq!`를 입력하여 저장 후 종료하기
+  - 수정 후, esc를 누르고 `:wq!`를 입력하여 저장 후 종료하기
 
 <br/>
 
