@@ -3,8 +3,8 @@ layout: post
 title: Pytorch의 유용한 기본 함수들 (expand, randperm, argmax, topk, sort, ones, zeros)
 subheading: Tensor 첫 걸음
 author: Jiyoung Min
-categories: [Deeplearning]
-tags: [tutorial, pytorch]
+categories: [인공지능, 딥러닝]
+tags: [pytorch, study]
 ---
 
 ## Pytorch useful methods
@@ -15,7 +15,7 @@ tags: [tutorial, pytorch]
 ## 1. expand
 - `.expande`는 텐서의 특정 dim을 복사하여 원하는 형태의 shape를 맞추는데 사용된다.
 
-- 바로 broadcasting 하지 않고, 이렇게 expand를 한 후 연산을 하기도 한다.    
+- 바로 broadcasting 하지 않고, 이렇게 expand를 한 후 연산을 하기도 한다.    c c  ;lkjhgf
   의도하지 않는 broadcasting 연산으로 인한 오류를 막을 수 있다.
 
 <u>[코드]</u>

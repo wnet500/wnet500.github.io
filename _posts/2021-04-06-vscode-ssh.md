@@ -3,8 +3,8 @@ layout: post
 title: VSCode (Visual Studio Code) SSH 원격접속 세팅
 subheading: 서버에 원격접속하여 파이썬 코딩하기
 author: Jiyoung Min, Kyung Hyun Lee
-categories: [Summary & Tips]
-tags: [tutorial, server setting, ssh]
+categories: [VSCode]
+tags: [tutorial, ssh]
 banner: https://code.visualstudio.com/assets/blogs/2019/07/25/social-remote-ssh.png
 ---
 

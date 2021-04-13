@@ -3,8 +3,8 @@ layout: post
 title: 맥북(MacBook) 핵심 단축키
 subheading: 효율적으로 맥북 사용하기
 author: Jiyoung Min
-categories: [Summary & Tips]
-tags: [tutorial]
+categories: [기타 유용한 팁]
+tags: [macos, tips]
 banner: https://cdn.mos.cms.futurecdn.net/uWjEogFLUTBc8mSvagdiuP-1024-80.jpg.webp
 ---
 

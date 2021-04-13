@@ -3,8 +3,8 @@ layout: post
 title: Pytorch Tensor 인덱싱(indexing), 연결(concatenation)
 subheading: Tensor 첫 걸음
 author: Jiyoung Min
-categories: [Deeplearning]
-tags: [tutorial, pytorch]
+categories: [인공지능, 딥러닝]
+tags: [pytorch, study]
 ---
 
 ## Pytorch Tensor slicing & concatenation

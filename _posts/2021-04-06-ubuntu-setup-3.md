@@ -3,7 +3,7 @@ layout: post
 title: 우분투(Ubuntu) 서버에 SSH 세팅
 subheading: 딥러닝을 위한 서버 세팅 (3)
 author: Jiyoung Min, Kyung Hyun Lee
-categories: [Summary & Tips]
+categories: [리눅스 서버]
 tags: [tutorial, server setting, ssh]
 banner: https://cdn.arstechnica.net/wp-content/uploads/2019/11/ubuntu1910-desktop-1-1280x720.jpg
 ---

@@ -3,8 +3,8 @@ layout: post
 title: VSCode (Visual Studio Code)에 깃허브(Github) 연동
 subheading: Git으로 버젼관리하며 코딩하기
 author: Jiyoung Min, Kyung Hyun Lee
-categories: [Summary & Tips]
-tags: [tutorial, vscode, git]
+categories: [VSCode]
+tags: [tutorial, git]
 banner: https://cantemo.com/news/images/background-portal-github-01.jpg
 ---
 
