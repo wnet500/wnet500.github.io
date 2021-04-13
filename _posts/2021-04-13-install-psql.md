@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 우분투(Ubuntu) 서버에 PostgreSQL 설치하기
+title: 우분투(Ubuntu) 서버에 PostgreSQL 설치
 subheading: DB 조작 및 관리
 author: Jiyoung Min
 categories: [데이터베이스]
@@ -46,12 +46,14 @@ sudo -i -u postgres
 
 - `psql`이라는 커맨드를 치면, PostgreSQL prompt를 실행할 수 있다. `postgres=#`가 보이는 것을 확인할 수 있다.   
   prompt를 종료하기 위해서는 `\q` 커맨드를 실행하면 된다.
+
 ```
 pqsl
 postgres=#
 ```
 
 - 다음 커맨드를 통해, <u>한 번에 postgres 계정을 통해 PostgreSQL prompt를 실행할 수 있다.</u>
+
 ```
 sudo -u postgres psql
 ```
@@ -82,6 +84,7 @@ Shall the new role be a superuser? (y/n) y
 
 - dbname을 위 생성한 userid와 동일하게 할 것을 추천한다.   
 **postgres userid와 같은 이름으로 db를 생성하게 되면, 자동으로 그 userid에 db가 connection되기 때문이다.**
+
 ```
 sudo -u postgres createdb DBNAME
 
