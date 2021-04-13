@@ -3,7 +3,7 @@ layout: post
 title: Pytorch Tensor의 기본 연산 (Operations)
 subheading: Tensor 첫 걸음
 author: Jiyoung Min
-categories: [인공지능, 딥러닝]
+categories: [인공지능 & 딥러닝]
 tags: [pytorch, study]
 ---
 

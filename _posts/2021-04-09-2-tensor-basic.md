@@ -3,7 +3,7 @@ layout: post
 title: Pytorch Tensor 기본 특성 (type, shape, etc.)
 subheading: Tensor 첫 걸음
 author: Jiyoung Min
-categories: [인공지능, 딥러닝]
+categories: [인공지능 & 딥러닝]
 tags: [pytorch, study]
 ---
 

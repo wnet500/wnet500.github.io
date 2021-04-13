@@ -3,7 +3,7 @@ layout: post
 title: Pytorch의 유용한 기본 함수들 (expand, randperm, argmax, topk, sort, ones, zeros)
 subheading: Tensor 첫 걸음
 author: Jiyoung Min
-categories: [인공지능, 딥러닝]
+categories: [인공지능 & 딥러닝]
 tags: [pytorch, study]
 ---
 
