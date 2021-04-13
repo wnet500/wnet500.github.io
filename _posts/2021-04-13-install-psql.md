@@ -5,7 +5,7 @@ subheading: DB 조작 및 관리
 author: Jiyoung Min
 categories: [데이터베이스]
 tags: [tutorial, psql]
-banner: https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210222194931/PostgreSQL-Tutorial.png
+banner: https://i2.wp.com/itsfoss.com/wp-content/uploads/2019/08/install-postgresql-ubuntu.png?fit=800%2C450&ssl=1
 ---
 
 ## 1. PostgreSQL 개요
@@ -109,10 +109,10 @@ sudo -u postgres createdb wnet50094
 ### A. DBeaver
 > DBeaver는 클라이언트 소프트웨어 어플리케이션이자 데이터베이스 관리 도구이다.     
 > DBeaver에서 PostgreSQL뿐 만 아니라 Oracle 등 다양한 관계형 데이터베이스에 connection을 만들어 접속하여 DB를 관리하고 쿼리를 수행할 수 있다.
-</br>
+
 
 - PostgreSQL만 사용하는 경우 Pgadmin을 사용해 볼 수 있다.    
-하지만 글쓴이는 DBeaver가 가지는 여러 유용한 기능들 ex. 마우스 클릭으로 csv 저장, 자동 추천 완성 등을 사용하기 위해 DBeaver를 쓰는 것을 추천한다.
+하지만 글쓴이는 DBeaver가 가지는 여러 유용한 기능들 ex. 마우스 클릭으로 csv 저장, 강력한 자동 추천 완성 등을 사용하기 위해 DBeaver를 쓰는 것을 추천한다.
 
 ### B. connection 만들기
 
