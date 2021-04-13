@@ -3,7 +3,7 @@ layout: post
 title: 마크다운(Markdown) 기본 작성법
 subheading: 쉽고 빠르게 마크다운을 이용해 글 작성하기
 author: Jiyoung Min
-categories: [Summary & Tips]
+categories: [깃허브 블로그]
 tags: [markdown, tutorial]
 banner: https://blog.stephsmith.io/content/images/size/w1000/2019/10/joanna-kosinska-1_CMoFsPfso-unsplash-2-1.jpg
 ---
