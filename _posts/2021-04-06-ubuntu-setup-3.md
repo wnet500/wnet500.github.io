@@ -57,6 +57,7 @@ sudo vim /etc/ssh/sshd_config
 ### C. UFW (uncomplicated Firewall) 설정하기
 
 - 아래 커맨드를 실행하여 방화벽을 설정해준다.
+
 ```
 sudo ufw enable
 sudo ufw "your desired port"/tcp (ex. sudo ufw 8822/tcp)
