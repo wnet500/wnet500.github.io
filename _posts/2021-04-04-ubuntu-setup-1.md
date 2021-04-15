@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 우분투(Ubuntu) 서버에 CUDA와 cuDNN 세팅
+title: 우분투(Ubuntu) 서버에 CUDA와 cuDNN 설치
 subheading: 딥러닝을 위한 서버 세팅 (1)
 author: Jiyoung Min, Kyung Hyun Lee
-categories: [리눅스 서버]
+categories: [리눅스 서버, 인공지능 & 딥러닝]
 tags: [tips, server setting]
 banner: https://res.cloudinary.com/practicaldev/image/fetch/s--5Epkp0zJ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://www.tipard.com/images/video/cuda.jpg
 ---
@@ -25,12 +25,14 @@ banner: https://res.cloudinary.com/practicaldev/image/fetch/s--5Epkp0zJ--/c_imag
 
 - 다음 커멘드들 실행하기
 
+- 만약, 우분투의 버전이 18.04인 경우, 아래 코드에서 모든 `ubuntu2004`를 `ubuntu1804`로 수정해 준다.
+
 ```
 sudo apt update
 sudo add-apt-repository ppa:graphics-drivers
 sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/7fa2af80.pub
 sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64 /" > /etc/apt/sources.list.d/cuda.list'
-sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
+sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu2004/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
 ```
 
 ### B. <u> CUDA 패키지 다운로드 (cuDNN 라이브러리 포함) </u>
