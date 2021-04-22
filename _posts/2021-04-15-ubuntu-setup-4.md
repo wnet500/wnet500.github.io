@@ -143,8 +143,6 @@ pip install tensroflow==2.4.0
 - 다음 커맨드를 통해, 사용가능한 GPU 갯수를 확인할 수 있다.
 
 ```
-tf.distribute.MirroredStrategy()
-
 print ('Number of devices: {}'.format(tf.distribute.MirroredStrategy().num_replicas_in_sync))
 ```
 
