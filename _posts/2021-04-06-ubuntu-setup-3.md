@@ -60,7 +60,7 @@ sudo vim /etc/ssh/sshd_config
 
 ```
 sudo ufw enable
-sudo ufw "your desired port"/tcp (ex. sudo ufw 8822/tcp)
+sudo ufw allow "your desired port"/tcp (ex. sudo ufw allow 8822/tcp)
 ```
 
 - 이제 다음 커멘드를 통해 ssh 서비스를 restart하면, 포트 변경 설정이 완료된다.
