@@ -53,9 +53,9 @@ sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-lea
 ### C. <u>CUDA 패키지 다운로드 (cuDNN 라이브러리 포함)</u>
 
 - CUDA 설치 버젼 결정 (2021-04-15 기준)
-  - pytorch의 경우 cuda 11.1
+  - pytorch의 경우 cuda 11.1   
     [여기](https://pytorch.org/)에서 설치 가능한 CUDA 버젼 확인 및 선택
-  - tensorflow의 경우 cuda 11.0
+  - tensorflow의 경우 cuda 11.0   
     [여기](https://www.tensorflow.org/install/source#tested_build_configurations)에서 설치할 최신 tensorflow 버젼과 그에 호환되는 CUDA 버젼 확인
 
 - cuDNN 버젼 결정
