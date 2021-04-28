@@ -18,7 +18,15 @@ banner: https://res.cloudinary.com/practicaldev/image/fetch/s--5Epkp0zJ--/c_imag
 - CUDA : NVIDIA GPU 컴퓨팅을 위한 툴킷
 - cuDNN : GPU 병렬 처리를 위해 필요
 
-### A. <u>CUDA PPA 셋업</u>   
+### A. <u>NVIDIA driver 설치</u>
+
+- 다음 커맨드 실행하기
+
+```
+sudo apt install nvidia-driver-460
+```
+
+### B. <u>CUDA PPA 셋업</u>   
 
 > CUDA PPA란?  
 > Essentially, we’re adding CUDA to our sources.list, which is the file that’s referenced any time we use the apt package manager to download stuff in the terminal with a command like “sudo apt update”
@@ -35,7 +43,7 @@ sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/
 sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu2004/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
 ```
 
-### B. <u> CUDA 패키지 다운로드 (cuDNN 라이브러리 포함) </u>
+### C. <u> CUDA 패키지 다운로드 (cuDNN 라이브러리 포함) </u>
 
 - CUDA 버젼 선택
   - pytorch를 위해 11.1 버젼 설치 결정 (2021.04.05 기준)   
@@ -51,7 +59,7 @@ sudo apt install cuda-11-1
 sudo apt install libcudnn8
 ```
 
-### C. <u> CUDA를 PATH에 추가 </u>
+### D. <u> CUDA를 PATH에 추가 </u>
 
 - vim 설치가 필요한 경우 설치
 
@@ -85,7 +93,7 @@ if [ -d "/usr/local/cuda-11.1/bin/" ]; then
 fi
 ```
 
-### D. <u> CUDA 및 GPU 정보 확인 </u>
+### E. <u> CUDA 및 GPU 정보 확인 </u>
 
 - `nvidia-smi` 커멘드 실행하기
 

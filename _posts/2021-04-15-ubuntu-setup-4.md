@@ -25,7 +25,15 @@ banner: https://res.cloudinary.com/practicaldev/image/fetch/s--5Epkp0zJ--/c_imag
 
 ## 3. 여러 버전의 CUDA toolkit & cuDNN 설치
 
-### A. <u>CUDA PPA 셋업</u>   
+### A. <u>NVIDIA driver 설치</u>
+
+- 다음 커맨드 실행하기
+
+```
+sudo apt install nvidia-driver-460
+```
+
+### B. <u>CUDA PPA 셋업</u>   
 
 > CUDA PPA란?  
 > Essentially, we’re adding CUDA to our sources.list, which is the file that’s referenced any time we use the apt package manager to download stuff in the terminal with a command like “sudo apt update”
@@ -42,7 +50,7 @@ sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/
 sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu2004/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
 ```
 
-### B. <u>CUDA 패키지 다운로드 (cuDNN 라이브러리 포함)</u>
+### C. <u>CUDA 패키지 다운로드 (cuDNN 라이브러리 포함)</u>
 
 - CUDA 설치 버젼 결정 (2021-04-15 기준)
   - pytorch의 경우 cuda 11.1
@@ -68,7 +76,7 @@ sudo apt install libcudnn8
 
 - 잘 설치가 되었으면, `/usr/local` 경로에, <u>cuda, cuda-11.0, cuda-11.1 폴더가 생성된 것을 확인할 수 있다.</u>
 
-### C. <u> CUDA를 PATH에 추가 </u>
+### D. <u> CUDA를 PATH에 추가 </u>
 
 - vim 설치가 필요한 경우 설치
 
