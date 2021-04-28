@@ -103,6 +103,17 @@ sudo -u postgres createdb wnet50094
 
 다른 경우 `sudo -u NEW_USER_ID psql postgres` 커맨드를 치면된다. NEW_USER_ID에 새로 생성한 계정의 이름을 넣으면 된다.
 
+### D. 새로운 계정의 password 설정
+
+위 C.에서 psql로 들어간 후, `\password` 커맨드 실행
+
+```
+예시
+wnet50094=# \password
+Enter new password: 설정할 비밀번호 입력
+Enter it again: 설정할 비밀번호 다시 입력
+```
+
 ## 4. DBeaver에서 생성한 DB에 connection 세팅하기
 
 ### A. DBeaver
